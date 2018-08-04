@@ -294,7 +294,7 @@
 
             </div>
         </div>
-    </div>
+    
 
     <footer class="footer">
         <div class="container">
@@ -365,10 +365,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script>
+        
+<script>
         $(document).ready(function(){
             $("#mycarousel").carousel( { interval: 1000 } );
-  $("#carouselButton").click(function(){
+             $("#carouselButton").click(function(){
                 if ($("#carouselButton").children("span").hasClass('fa-pause')) {
                     $("#mycarousel").carousel('pause');
                     $("#carouselButton").children("span").removeClass('fa-pause');
@@ -382,7 +383,6 @@
             });
         });
     </script>
-
 </body>
 
 </html>
